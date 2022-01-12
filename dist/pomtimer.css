@@ -1,0 +1,53 @@
+/* Background { */
+  /* background: #272343; */
+  /* font-family: "Pacifico", cursive;
+} */
+
+/* Main heading */
+.heading {
+  color: black;
+}
+
+/* Countdown timer */
+.timer {
+  color: black;
+  text-align: center;
+  width: 31rem;
+  height: 5rem;
+  border: 5px solid rgb(219, 219, 219);
+  border-radius: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+}
+
+/* remove the padding on the play button */
+.btn {
+  padding: 0;
+}
+
+/* play and reset icons */
+.fa-play,
+.fa-redo-alt {
+  color: black;
+  border: 2px solid transparent;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+.fa-play:hover,
+.fa-redo-alt:hover {
+  color: red;
+  border: 2px solid black;
+  transition: 0.3s ease;
+}
+
+#image {
+    height: 300px;
+    width: 500px;
+}
+
